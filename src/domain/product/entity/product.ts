@@ -1,6 +1,7 @@
 import Entity from "../../@shared/entity/entity.abstract";
 import NotificationError from "../../@shared/notification/notification.error";
 import ProductValidatorFactory from "../factory/product.validator.factory";
+import ProductYupValidator from "../validator/product.yup.validator";
 import ProductInterface from "./product.interface";
 
 export default class Product extends Entity implements ProductInterface{
